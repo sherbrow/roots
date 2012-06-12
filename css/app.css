@@ -100,3 +100,5 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     padding-top: 0;
   }
 }
+
+#banner .brand { float: right; }
