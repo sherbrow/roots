@@ -3,9 +3,11 @@
 
   <?php roots_footer_before(); ?>
   <footer id="content-info" class="<?php echo WRAP_CLASSES; ?>" role="contentinfo">
-    <?php roots_footer_inside(); ?>
-    <?php dynamic_sidebar('sidebar-footer'); ?>
-    <p class="copy"><small>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></small></p>
+    <div class="row">
+      <?php roots_footer_inside(); ?>
+      <?php dynamic_sidebar('sidebar-footer'); ?>
+	</div>
+    <p class="copy" style="text-align: center;"><small><a href="http://copyheart.org/" target="_blank">♡ Copyheart</a> - <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - Copying is an act of love. Please copy and share.</small></p>
   </footer>
   <?php roots_footer_after(); ?>
 
