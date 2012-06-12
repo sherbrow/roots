@@ -104,3 +104,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 #banner .brand { float: right; }
 
 #searchform label { display: none; }
+
+.textcenter { text-align: center; }
+.textleft { text-align: left; }
+.textright { text-align: right; }

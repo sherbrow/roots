@@ -3,7 +3,7 @@
 
   <?php roots_footer_before(); ?>
   <footer id="content-info" class="<?php echo WRAP_CLASSES; ?>" role="contentinfo">
-    <div class="row">
+    <div class="<?php echo CONTAINER_CLASSES; ?>">
       <?php roots_footer_inside(); ?>
       <?php dynamic_sidebar('sidebar-footer'); ?>
 	</div>

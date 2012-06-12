@@ -695,8 +695,6 @@ function roots_widget_first_last_classes($params) {
   }
 
   $class = 'class="widget-' . $my_widget_num[$this_id] . ' ';
-  if($this_id == 'sidebar-footer')
-    $class .= 'span3 ';
 
   if ($my_widget_num[$this_id] == 1) {
     $class .= 'widget-first ';
