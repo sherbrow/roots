@@ -19,6 +19,14 @@ function roots_widgets_init() {
     'after_title' => '</h3>',
   ));
   register_sidebar(array(
+    'name' => __('Footer 2', 'roots'),
+    'id' => 'sidebar-footer2',
+    'before_widget' => '<section id="%1$s" class="widget '.FOOTER_WIDGET_CLASSES.' %2$s"><div class="widget-inner">',
+    'after_widget' => '</div></section>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+  ));
+  register_sidebar(array(
     'name' => __('Hub', 'roots'),
     'id' => 'sidebar-hub',
     'before_widget' => '<section id="%1$s" class="widget '.HUB_WIDGET_CLASSES.' %2$s"><div class="widget-inner well">',
