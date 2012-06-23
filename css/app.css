@@ -108,3 +108,5 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .textcenter { text-align: center; }
 .textleft { text-align: left; }
 .textright { text-align: right; }
+
+.qtrans_language_chooser { list-style: none outside none; margin-left: 0; }
